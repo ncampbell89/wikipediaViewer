@@ -1,0 +1,32 @@
+<html>
+<head>
+	<title>Wikipedia Viewer</title>
+    
+    <!--Cloudflare-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    
+    <link rel="stylesheet" type="text/css" href="viewer.css">
+    
+	<script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="viewer.js"></script>
+</head>
+    
+<body>
+	<div class="container">
+		<p class="random"><a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Click me for a random article</a></p>
+
+		<div id="search">
+			<img class="lookup" src="../images/search.png">
+			<input class="keyword" type="search" name="article" size="40">
+            <img class="back" src="../images/back.png">
+		</div>
+
+		<p class="icon">Click the icon to search for an article</p>
+	</div>
+
+	<ul id="output"></ul>
+</body>
+</html>
